@@ -1,4 +1,4 @@
-### 🧙‍♂️ Coding is Magic - Educational RPG ✨
+## 🧙‍♂️ Coding is Magic - Educational RPG ✨
 
 เกมผจญภัยแบบเทิร์นเบสเพื่อการเรียนรู้การเขียนโปรแกรมภาษาไพทอน <br />
 A Turn-Based Adeventure Game for Learning Python Programming
