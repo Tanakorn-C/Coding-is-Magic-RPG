@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ea5914f34745649953c635b36bef34, type: 3}
+  m_Name: Black Samurai
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureBase
+  id: 11
+  creatureName: Black Samurai
+  description: Black Samurai
+  frontSprite: {fileID: -1501021414962227678, guid: 5ad337dd2169014438ffab7f3a59bd5e, type: 3}
+  backSprite: {fileID: 0}
+  type: 4
+  associatedCategory: 3
+  associatedDifficulty: 1
+  maxHP: 100
+  attack: 30
+  defense: 50
+  spAttack: 60
+  spDefense: 60
+  speed: 50
+  learnableAttacks:
+  - attack: {fileID: 11400000, guid: 38d6a808134385b4794ad8b6992e2797, type: 2}
+    level: 1
+  - attack: {fileID: 11400000, guid: ae9e87bf1cf4eb94a976924f80452e2b, type: 2}
+    level: 2
+  - attack: {fileID: 11400000, guid: bad842d7d6681f7498d4f2bdf48d71ca, type: 2}
+    level: 3
+  - attack: {fileID: 11400000, guid: a6f19f0d6a73231499b675b7faf12efc, type: 2}
+    level: 4

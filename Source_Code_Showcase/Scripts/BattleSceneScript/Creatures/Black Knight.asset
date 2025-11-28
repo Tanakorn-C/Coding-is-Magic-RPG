@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ea5914f34745649953c635b36bef34, type: 3}
+  m_Name: Black Knight
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureBase
+  id: 8
+  creatureName: 'Black Knight '
+  description: 'Black Knight
+
+'
+  frontSprite: {fileID: 7473920403424214205, guid: 7538c17b7be966f4b8647c60a37af6b4, type: 3}
+  backSprite: {fileID: 0}
+  type: 2
+  associatedCategory: 3
+  associatedDifficulty: 1
+  maxHP: 125
+  attack: 25
+  defense: 35
+  spAttack: 35
+  spDefense: 35
+  speed: 35
+  learnableAttacks:
+  - attack: {fileID: 11400000, guid: 833539f5149175542accd315743f1e57, type: 2}
+    level: 1
+  - attack: {fileID: 11400000, guid: 7d25e633a5bd268468aa0f80f09cbb89, type: 2}
+    level: 2
+  - attack: {fileID: 11400000, guid: 1efd733aeb3def447acea1083088be50, type: 2}
+    level: 3
+  - attack: {fileID: 11400000, guid: d8da5661bacf6f84e9c96ee6f3eca2b0, type: 2}
+    level: 4

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ea5914f34745649953c635b36bef34, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureBase
+  id: 0
+  creatureName: Player
+  description: "A mc \u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E43\u0E0A\u0E48 mcDonald\n"
+  frontSprite: {fileID: -2639991836460524431, guid: 087ac283e36a81e4d8d9e5fd22126233, type: 3}
+  backSprite: {fileID: -7853279584959035175, guid: 84700b43619783649b0f420cc4ef28ef, type: 3}
+  type: 1
+  associatedCategory: 0
+  associatedDifficulty: 0
+  maxHP: 205
+  attack: 50
+  defense: 60
+  spAttack: 75
+  spDefense: 60
+  speed: 55
+  learnableAttacks:
+  - attack: {fileID: 11400000, guid: bf0fd16a18308154a80e7b8098c4f4cc, type: 2}
+    level: 1
+  - attack: {fileID: 11400000, guid: 5f500a4c5b6fdd44781fabafea1345b0, type: 2}
+    level: 2
+  - attack: {fileID: 11400000, guid: 64f5035f18fd9b74d95ed339ef487f00, type: 2}
+    level: 3
+  - attack: {fileID: 11400000, guid: a8d691616be76d64cb329aa97f66af01, type: 2}
+    level: 4
